@@ -1,0 +1,47 @@
+.hea{
+    display:flex;
+    justify-content: center;
+    font-size: 50px;
+    background-color: gold ;
+}
+.info{
+    display:flex;
+    justify-content: space-between;
+    background-color: #90AB92;
+    font-size: 25px;
+    font-weight: 400;
+    text-decoration-color: white;
+    padding:15px;
+}
+.photo{
+    border: 2px solid black;
+    border-radius: 50px;
+    display:flex;
+    justify-content: center;
+    background-color: greenyellow;
+}
+.facts{
+    font-family: fantasy;
+    background-color: navy;
+    color: rgb(185, 148, 78);
+}
+.artists{
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: papayawhip;
+    color: saddlebrown;
+}
+a:visited{
+    color: navy;
+}
+a:link{
+    color:navy;
+}
+body{
+    margin:10px;
+    background-color: #8b4513;
+}
+header {
+    margin-top: 30px;
+}
